@@ -1,0 +1,98 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		569E8DBB1533C4F400B0DAD8 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
+		569E8DBF1533C4F400B0DAD8 /* Abeln8rsPlugins.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = Abeln8rsPlugins.java; sourceTree = "<group>"; };
+		569E8DC01533C4F400B0DAD8 /* plugin.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = plugin.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		569E8DB21533C4EC00B0DAD8 = {
+			isa = PBXGroup;
+			children = (
+				569E8DBB1533C4F400B0DAD8 /* README */,
+				569E8DBC1533C4F400B0DAD8 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		569E8DBC1533C4F400B0DAD8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				569E8DBD1533C4F400B0DAD8 /* abeln8r */,
+				569E8DC01533C4F400B0DAD8 /* plugin.yml */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		569E8DBD1533C4F400B0DAD8 /* abeln8r */ = {
+			isa = PBXGroup;
+			children = (
+				569E8DBE1533C4F400B0DAD8 /* plugins */,
+			);
+			path = abeln8r;
+			sourceTree = "<group>";
+		};
+		569E8DBE1533C4F400B0DAD8 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				569E8DBF1533C4F400B0DAD8 /* Abeln8rsPlugins.java */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		569E8DB41533C4EC00B0DAD8 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 569E8DB71533C4EC00B0DAD8 /* Build configuration list for PBXProject "Plugincommit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 569E8DB21533C4EC00B0DAD8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		569E8DB91533C4EC00B0DAD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		569E8DBA1533C4EC00B0DAD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		569E8DB71533C4EC00B0DAD8 /* Build configuration list for PBXProject "Plugincommit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569E8DB91533C4EC00B0DAD8 /* Debug */,
+				569E8DBA1533C4EC00B0DAD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 569E8DB41533C4EC00B0DAD8 /* Project object */;
+}

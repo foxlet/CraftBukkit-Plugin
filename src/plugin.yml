@@ -1,0 +1,9 @@
+name: Abeln8rs Plugin
+main: abeln8r.plugins.Abeln8rsPlugins
+version: 2
+softdepend: []
+commands:
+   tk:
+      description: allows you to talk as another player.
+      usage: |
+           /<command> <playername> <message>
